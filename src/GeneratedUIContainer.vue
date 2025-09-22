@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { defineAsyncComponent, computed } from "vue";
 import * as Vue from "vue";
+// @ts-ignore
 import { loadModule } from "vue3-sfc-loader";
 
 const props = defineProps<{
